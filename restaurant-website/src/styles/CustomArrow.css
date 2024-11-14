@@ -1,0 +1,41 @@
+
+.arrows-ne{
+  position: absolute;
+  top: -60px; /* Position above the carousel */
+  right: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.arrow {
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.arrow i {
+  font-size: 1rem;
+  color: #ff6347;
+}
+
+/* Carousel item styling */
+.carousel-item {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-pr{
+  top: -60px;
+  left: 90%;
+  display: flex;
+  gap: 10px;
+  position: absolute;
+}

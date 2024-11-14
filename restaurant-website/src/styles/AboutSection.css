@@ -1,0 +1,134 @@
+.about-section {
+    position: relative;
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 0;
+    flex-wrap: wrap;
+  }
+  
+  .about-left {
+    position: relative;
+    width: 50%;
+  }
+  
+
+  .about-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  
+  
+  .about-right {
+    width: 50%;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tabs span {
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .tabs .active {
+    color: #d9232d;
+    border-bottom-color: #d9232d;
+  }
+  
+  .about-content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .about-content p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .about-btn {
+    background: #fcb900;
+    color: #100f0f;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 1rem;
+  }
+  
+  .contact-info {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 0.5rem;
+  }
+  
+  .about-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 2rem;
+    gap: 1rem;
+  }
+  
+  .icon-item {
+    text-align: center;
+  }
+  
+  .icon-item .icon {
+    font-size: 2rem;
+    color: #d9232d;
+    margin-bottom: 0.5rem;
+  }
+  
+  .icon-item h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .icon-item p {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  /* Additional styling for pepper image */
+  .papper {
+    position: absolute;
+    bottom: 360px;
+    right: 97px;
+    width: 46px;
+    border-radius: 50%;
+    transform: translate(50%, 50%);
+    z-index: -1;
+}
+.icon-items{
+  
+    height: 60px;
+    width: 60px;
+    background-color: #fff;
+    font-size: 35px;
+    line-height: 60px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: var(--bs-box-shadow) !important;
+}
+
+.item-texts-h{
+  font-weight: 700;
+  line-height: 35px;
+  
+}
+.item-text-p{
+  text-align: left;
+}

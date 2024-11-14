@@ -1,0 +1,78 @@
+/* PopularFoodCarousel.css */
+.food-caro{
+  background-color: #f9f5f1;
+}
+.popular-food-section {
+  padding: 2rem;
+}
+
+.section-header {
+  margin-bottom: 1.5rem;
+}
+
+.section-header .highlight {
+  color: #ff6347;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.section-header h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.food-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: center;
+  width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.food-card:hover {
+  transform: scale(1.05);
+}
+
+.food-card img.img-fluid {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 0.75rem;
+  margin-left: 25%;
+}
+
+.food-name {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0.5rem 0;
+  font-weight: 600;
+}
+
+.food-cuisine {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
+.left-cap{
+  position: absolute;
+  width: 110px;
+  transform: translate(0%, 65%);
+}
+
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .food-card {
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .food-card {
+    width: 180px;
+  }
+}

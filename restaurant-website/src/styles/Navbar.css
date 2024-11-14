@@ -1,0 +1,35 @@
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+  .nav-items{
+    margin: revert;
+  }
+  .nav-items li{
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  .nav-items a{
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+.navbar-logo {
+  margin: inherit;
+
+
+}
+.book{
+ margin: auto;
+ margin-right: 80px;
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 0.9 !important;
+}
