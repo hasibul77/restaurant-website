@@ -39,3 +39,22 @@
   gap: 10px;
   position: absolute;
 }
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .arrows-ne {
+    display: none;
+  }
+  .arrow-pr {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  arrows-ne {
+    display: none;
+  }
+  .arrow-pr {
+    display: none;
+  }
+}

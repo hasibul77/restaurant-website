@@ -20,9 +20,9 @@ const AboutSection = () => {
           </>
         );
       case 'experience':
-        return <p>Experience Content (Replace with actual content)</p>;
+        return <h1> Developed by Md.Hasibul Hossain </h1>;
       case 'contact':
-        return <p>Contact Content (Replace with actual content)</p>;
+        return <h2>hasibul.himel846@gmail.com</h2>;
       default:
         return null;
     }
@@ -30,6 +30,9 @@ const AboutSection = () => {
 
   return (
     <section className='about pt-5'>
+      <div className='papper'>
+        <img src={pepperImage} alt="Pepper" className="img-fluid" />
+        </div>
     <div className='container'>
     <div className="about-section">
       <div className="about-left col md-6">
@@ -80,9 +83,6 @@ const AboutSection = () => {
       </div>
       </div>
       </div>
-      <div className='papper'>
-        <img src={pepperImage} alt="Pepper" className="img-fluidr" />
-        </div>
     </div>
     </div>
     </section>

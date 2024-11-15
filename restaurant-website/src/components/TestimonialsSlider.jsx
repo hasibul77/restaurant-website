@@ -4,6 +4,8 @@ import CustomPrevArrow from '../components/customArrow/CustomPrevArrow';
 import CustomNextArrow from '../components/customArrow/CustomNextArrow'; 
 import '../styles/TestimonialsSlider.css';
 import QuoteIMG from '../assets/images/Quote.png'
+import leftPic from '../assets/images/cap.png'
+import rightPic from '../assets/images/lm.png'
 
 const TestimonialSlider = () => {
   const settings = {
@@ -18,6 +20,12 @@ const TestimonialSlider = () => {
 
   return (
     <section className='testimonial py-5'>
+      <div className='left-pic'>
+        <img src={leftPic} alt="leftPic" className="img-fluid"/>
+      </div>
+      <div className='right-pic'>
+      <img src={rightPic} alt="rightPic" className="img-fluid"/>
+      </div>
         <div className='container'>
     
     <Slider {...settings}>

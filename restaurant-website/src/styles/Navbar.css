@@ -33,3 +33,21 @@
   flex-basis: 100%;
   flex-grow: 0.9 !important;
 }
+
+@media (max-width: 768px) {
+  .btn {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .btn {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .btn {
+    display: none;
+  }
+}
+
+

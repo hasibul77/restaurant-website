@@ -1,10 +1,8 @@
 .testimonial{
     margin-top: 3rem;
+    position: relative;
 }
 
-.customers-say{
-
-}
 .customers-say span{
     
     color: #ff6347;
@@ -19,4 +17,55 @@
 .customers-say img{
     width: 100%;
     height: auto;
+}
+
+.left-pic{
+    height: auto;
+    width: 80px;
+    position: absolute;
+    top: 110px;
+}
+
+.right-pic{
+    height: auto;
+    width: 150px;
+    position: absolute;
+    left: 90%;
+    bottom: 110px;
+}
+
+@media (max-width: 768px) {
+    .left-pic {
+        display: none;
+    }
+
+    .right-pic {
+        display: none;
+    }
+
+    .customers-say h1 {
+        font-size: 1.5rem;
+    }
+
+    .customers-say span {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .left-pic {
+        display: none; 
+    }
+
+    .right-pic {
+        display: none;
+    }
+
+    .customers-say h1 {
+        font-size: 1.2rem;
+    }
+
+    .customers-say span {
+        font-size: 16px;
+    }
 }

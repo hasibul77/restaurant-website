@@ -76,3 +76,47 @@
     background-color: #e6b800;
   }
   
+
+  /* Responsive Styling */
+@media (max-width: 768px) {
+  .booking-section {
+    padding: 3rem 2rem;
+  }
+
+  .booking-form-container {
+    padding: 1.5rem;
+  }
+
+  .content h2 {
+    font-size: 2.5rem;
+  }
+
+  .booking-form .form-row {
+    flex-direction: column; /* Stack the form fields */
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .booking-section {
+    padding: 2rem 1rem;
+  }
+
+  .booking-form-container {
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+  .content h2 {
+    font-size: 2rem;
+  }
+
+  .content p {
+    font-size: 0.8rem;
+  }
+
+  .btn-yellow {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+}
